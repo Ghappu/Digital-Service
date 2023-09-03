@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous">
+        </script>
+    <script src="https://kit.fontawesome.com/8a4f0d0c56.js" crossorigin="anonymous"></script>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body onload="swapimage();">
+    <div class="wrapper">
+        <div class="header">
+            <div class="navbaar">
+                <div class="nav">
+                    <div class="logo">
+                        <img src="images/logo.png">
+                    </div>
+                    <div class="pages">
+                        <ul>
+                            <li><a href="index.html">home</a></li>
+                            <li><a href="about.html">about</a></li>
+                            <li><a href="services.html">service</a></li>
+                            <li><a href="portfolio.html">portfolio</a></li>
+                            <li><a href="contact.html">contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="banner">
+                <div class="mySlides fade" id="slide">
+                    <img src="images/1_1.jpg" width="1364px" height="600px">
+                    <div id="slide-1">
+                        <p class="textsub">WELCOME TOMEIPALY AGENCY</p>
+                        <h1 class="text">SMART WEB<br> DESIGN AGENCY. </h1>
+                        <button id="btn"><span>DISCOVER MORE</span></button>
+                    </div>
+                </div>
+
+                <div class="mySlides fade" id="slide">
+                    <img src="images/1_2.jpg" width="1364px" height="600px">
+                    <div id="slide-1">
+                        <p class="textsub">WELCOME TOMEIPALY AGENCY</p>
+                        <h1 class="text">SMART WEB<br> DESIGN AGENCY. </h1>
+                        <button id="btn"><span>DISCOVER MORE</span></button>
+                    </div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+            </div>
+        </div>
+        <div class="section-1">
+            <div class="section-1-i">
+                <div class="section-1-1">
+                    <h6>SERVICES WE ARE OFFERING</h6>
+                    <h2>WE DESIGN DIGITAL PRODUCTS THAT<br>
+                        HELP GROW BUSINESSES.</h2>
+                    <p>We are committed to providing our customers with exceptional service<br>
+                        while offering our employees the best training.</p>
+                </div>
+                <div class="section-1-2">
+                    <div class="main-box">
+                        <div class="box">
+                            <img src="images/service-1.jpg">
+                            <h2>aap<br>development</h2>
+                        </div>
+                    </div>
+                    <div class="main-box">
+                        <div class="box">
+                            <img src="images/service-2.jpg">
+                            <h2>digital <br>marketing</h2>
+                        </div>
+                    </div>
+                    <div class="main-box">
+                        <div class="box">
+                            <img src="images/service-3.jpg">
+                            <h2>digital<br> products</h2>
+                        </div>
+                    </div>
+                    <div class="main-box">
+                        <div class="box">
+                            <img src="images/service-4.jpg">
+                            <h2>GRAPHIC<br>DESIGN</h2>
+                        </div>
+                    </div>
+                    <div class="main-box">
+                        <div class="box">
+                            <img src="images/service-5.png">
+                            <h2>marketing<br>strategy</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="best-agency">
+            <div class="best-agency-1">
+                <div class="best-agency-i">
+                    <p id="agency-p1">WELCOM TO SMART MEIPALY WEB AGENCY</p>
+                    <h2 id="agency-h2">WE ARE THE BEST<br> WEBSITE AGENCY IN <br>THE WORLD</h2>
+                    <p id="agency-p2">We are committed to providing our customers with exceptional service while
+                        <br>offering our
+                        employees the best training. Lorem Ipsum is simply dummy text <br>of the printing and
+                        typesetting industry has been the industry's standard<br> dummy text ever since the 1500s.
+                    </p>
+                    <button id="agency-button"><span> LEARN MORE </span></button>
+                </div>
+                <div class="best-agency-ii">
+                    <img src="images/2.jpg" id="agency-img1">
+                    <img src="images/1-1.jpg" id="agency-img2">
+                    <div class="red-box"></div>
+                </div>
+            </div>
+        </div>
+        <div class="experience">
+            <div class="experience-heading">
+                <p id="ex-p1">HOW DO WE WORKS</p>
+                <h2 id="ex-h2">DIGITAL EXPERIENCE</h2>
+                <p id="ex-p2">We are committed to providing our customers with exceptional service while<br>
+                    offering our employees the best training.
+                </p>
+            </div>
+            <div class="experience-video">
+                <div class="video-icon">
+                    <i class="fa-sharp fa-solid fa-play fa-fade"></i>
+                </div>
+                <h2 id="ex-vid-h2">WATCH VIDEO</h2>
+            </div>
+            <div class="experience-subscribe">
+                <div class="subscribe-1">
+                    <p>DON’T MISS OUT OUR LATEST UPDATES</p>
+                    <h2>SUBSCRIBE US</h2>
+                </div>
+                <div class="subscribe-2">
+                    <input type="email" name="EMAIL" placeholder="Enter your email...." required="">
+                    <input type="submit" value="Subscribe now">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="work">
+            <div class="work-head">
+                <p class="work-head-p1">OUR PORTFOLIO</p>
+                <h2 class="work-head-h2">WORK SHOWCASE</h2>
+                <p class="work-head-p2">We are committed to providing our customers with exceptional service while<br>
+                    offering our employees the best training.</p>
+            </div>
+            <div class="work-img">
+                <div class="work-img-i">
+                    <div class="work-i">
+                        <div class="work-i-box"></div>
+                        <div class="work-i-text">
+                            <p><a id="demo">APP</a>, <a id="demo">ILLUSTRATIONS</a></p>
+                            <h3>ADVENTURE BEGINS HERE</h3>
+                        </div>
+                        <img src="images/5-1-370x426.jpg">
+                    </div>
+                    <div class="work-i">
+                        <div class="work-i-box"></div>
+                        <div class="work-i-text">
+                            <p><a id="demo">BRANDING</a>, <a id="demo">WEB DEVELOPMENT</a></p>
+                            <h3>DESIGN STYLES</h3>
+                        </div>
+                        <img src="images/6-1-370x426.jpg">
+                    </div>
+                    <div class="work-i">
+                        <div class="work-i-box"></div>
+                        <div class="work-i-text">
+                            <p><a id="demo">APP</a>, <a id="demo">ILLUSTRATIONS</a></p>
+                            <h3>DESIGN THE FUTURE</h3>
+                        </div>
+                        <img src="images/10-1-370x426.jpg">
+                    </div>
+                </div>
+                <div class="work-img-ii">
+                    <div class="work-i">
+                        <div class="work-i-box"></div>
+                        <div class="work-i-text">
+                            <p><a id="demo">BRANDING</a>, <a id="demo">WEB DEVELOPMENT</a></p>
+                            <h3>ADVENTURE BEGINS HERE</h3>
+                        </div>
+                        <img src="images/11-1-370x426.jpg">
+                    </div>
+                    <div class="work-i">
+                        <div class="work-i-box"></div>
+                        <div class="work-i-text">
+                            <p><a id="demo">GRAPHIC</a>, <a id="demo">ILLUSTRATIONS</a></p>
+                            <h3>DESIGN THE FUTURE</h3>
+                        </div>
+                        <img src="images/9-1-370x426.jpg">
+                    </div>
+                    <div class="work-i">
+                        <div class="work-i-box"></div>
+                        <div class="work-i-text">
+                            <p><a id="demo">BRANDING</a>, <a id="demo">WEB DEVELOPMENT</a></p>
+                            <h3>ADVENTURE BEGINS HERE</h3>
+                        </div>
+                        <img src="images/7-1-370x426.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="number">
+
+        </div>
+        <div class="team">
+            <div class="team-head">
+                <div class="team-head-img"></div>
+                <div class="team-head-text">
+                    <h2>WE ARE TRUSTED BY MORE <br>THAN 8900 CLIENTS</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidi-<br>dunt
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita-<br>tion
+                        ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                    <button id="team-btn"> <span>LEARN MORE</span></button>
+                </div>
+            </div>
+            <div class="team-expert">
+                <div class="expert-text">
+                    <p id="team-p1">MEET THE TEAM</p>
+                    <h2>EXPERT PEOPLE</h2>
+                    <p id="team-p2">We are committed to providing our customers with exceptional service while<br>
+                        offering our employees the best training.
+                    </p>
+                </div>
+                <div class="scrollhead">
+                    <!-- <ol>
+                        <li><img src="images/1-4-370x409.jpg">
+                            <h2>JOHN ALBERT</h2>
+                            <p>BRAND OFFICER</p>
+                        </li>
+                        <li><img src="images/2-4-370x409.jpg">
+                            <h2>ROSE FORD</h2>
+                            <p>MARKITNG MANAGER</p>
+                        </li>
+                        <li><img src="images/3-4-370x409.jpg">
+                            <h2>KEVIN SMITH</h2>
+                            <p>O FOUNDER</p>
+                        </li>
+                        <li><img src="images/5-2-370x409.jpg">
+                            <h2>MIKE HARDSON</h2>
+                            <p>SENIOR DESIGNER</p>
+                        </li>
+                        <li><img src="images/1-4-370x409.jpg">
+                            <h2>JOHN ALBERT</h2>
+                            <p>BRAND OFFICER</p>
+                        </li>
+                        <li><img src="images/2-4-370x409.jpg">
+                            <h2>ROSE FORD</h2>
+                            <p>MARKITNG MANAGER</p>
+                        </li>
+                        <li><img src="images/1-4-370x409.jpg">
+                            <h2>JESSICA BROWN</h2>
+                            <p>GENER MANAGER</p>
+                        </li>
+                        <li><img src="images/3-4-370x409.jpg">
+                            <h2>KEVIN SMITH</h2>
+                            <p>O FOUNDER</p>
+                        </li>
+                        <li><img src="images/5-2-370x409.jpg">
+                            <h2>MIKE HARDSON</h2>
+                            <p>SENIOR DESIGNER</p>
+                        </li>
+                        <li><img src="images/1-4-370x409.jpg">
+                            <h2>JESSICA BROWN</h2>
+                            <p>GENER MANAGER</p>
+                        </li>
+                    </ol> -->
+                    <!-- Swiper -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="swiper-div">
+                                    <div class="swiper-box">
+                                        <div class="swiper-aftr">
+                                            <div class="swiper-img"><img src="images/1-4-370x409.jpg"></div>
+                                            <div class="swiper-text">
+                                                <p>facebook</p>
+                                                <p>twitter</p>
+                                                <p>youtube</p>
+                                                <button class="swiper-button"><span>learn more</span></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="clint-name">
+                                        <h2>JOHN ALBERT</h2>
+                                        <p>BRAND OFFICER</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-div">
+                                    <div class="swiper-box">
+                                        <div class="swiper-aftr">
+                                            <div class="swiper-img"><img src="images/2-4-370x409.jpg"></div>
+                                            <div class="swiper-text">
+                                                <p>facebook</p>
+                                                <p>twitter</p>
+                                                <p>youtube</p>
+                                                <button class="swiper-button"><span>learn more</span></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="clint-name">
+                                        <h2>ROSE FORD</h2>
+                                        <p>MARKITNG MANAGER</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-div">
+                                    <div class="swiper-box">
+                                        <div class="swiper-aftr">
+                                            <div class="swiper-img"><img src="images/3-4-370x409.jpg"></div>
+                                            <div class="swiper-text">
+                                                <p>facebook</p>
+                                                <p>twitter</p>
+                                                <p>youtube</p>
+                                                <button class="swiper-button"><span>learn more</span></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="clint-name">
+                                        <h2>KEVIN SMITH</h2>
+                                        <p>O FOUNDER</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-div">
+                                    <div class="swiper-box">
+                                        <div class="swiper-aftr">
+                                            <div class="swiper-img"><img src="images/5-2-370x409.jpg"></div>
+                                            <div class="swiper-text">
+                                                <p>facebook</p>
+                                                <p>twitter</p>
+                                                <p>youtube</p>
+                                                <button class="swiper-button"><span>learn more</span></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="clint-name">
+                                        <h2>MIKE HARDSON</h2>
+                                        <p>SENIOR DESIGNER</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-div">
+                                    <div class="swiper-box">
+                                        <div class="swiper-aftr">
+                                            <div class="swiper-img"><img src="images/1-4-370x409.jpg"></div>
+                                            <div class="swiper-text">
+                                                <p>facebook</p>
+                                                <p>twitter</p>
+                                                <p>youtube</p>
+                                                <button class="swiper-button"><span>learn more</span></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="clint-name">
+                                        <h2>JOHN ALBERT</h2>
+                                        <p>BRAND OFFICER</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-div">
+                                    <div class="swiper-box">
+                                        <div class="swiper-aftr">
+                                            <div class="swiper-img"><img src="images/2-4-370x409.jpg"></div>
+                                            <div class="swiper-text">
+                                                <p>facebook</p>
+                                                <p>twitter</p>
+                                                <p>youtube</p>
+                                                <button class="swiper-button"><span>learn more</span></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="clint-name">
+                                        <h2>ROSE FORD</h2>
+                                        <p>MARKITNG MANAGER</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-div">
+                                    <div class="swiper-box">
+                                        <div class="swiper-aftr">
+                                            <div class="swiper-img"><img src="images/1-4-370x409.jpg"></div>
+                                            <div class="swiper-text">
+                                                <p>facebook</p>
+                                                <p>twitter</p>
+                                                <p>youtube</p>
+                                                <button class="swiper-button"><span>learn more</span></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="clint-name">
+                                        <h2>JESSICA BROWN</h2>
+                                        <p>GENER MANAGER</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-div">
+                                    <div class="swiper-box">
+                                        <div class="swiper-aftr">
+                                            <div class="swiper-img"><img src="images/3-4-370x409.jpg"></div>
+                                            <div class="swiper-text">
+                                                <p>facebook</p>
+                                                <p>twitter</p>
+                                                <p>youtube</p>
+                                                <button class="swiper-button"><span>learn more</span></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="clint-name">
+                                        <h2>KEVIN SMITH</h2>
+                                        <p>O FOUNDER</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-div">
+                                    <div class="swiper-box">
+                                        <div class="swiper-aftr">
+                                            <div class="swiper-img"><img src="images/5-2-370x409.jpg"></div>
+                                            <div class="swiper-text">
+                                                <p>facebook</p>
+                                                <p>twitter</p>
+                                                <p>youtube</p>
+                                                <button class="swiper-button"><span>learn more</span></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="clint-name">
+                                        <h2>MIKE HARDSON</h2>
+                                        <p>SENIOR DESIGNER</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-div">
+                                    <div class="swiper-box">
+                                        <div class="swiper-aftr">
+                                            <div class="swiper-img"><img src="images/1-4-370x409.jpg"></div>
+                                            <div class="swiper-text">
+                                                <p>facebook</p>
+                                                <p>twitter</p>
+                                                <p>youtube</p>
+                                                <button class="swiper-button"><span>learn more</span></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="clint-name">
+                                        <h2>JESSICA BROWN</h2>
+                                        <p>GENER MANAGER</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="clint">
+            <div class="clint-head">
+                <p class="p1">OUR CLIENTS</p>
+                <h2 class="h2">THEY TRUST US</h2>
+                <p class="p2">We are committed to providing our customers with exceptional service while<br>
+                    offering our employees the best training.</p>
+            </div>
+            <div id="clint-logo">
+                <div class="clint-box">
+                    <div id="slide-box">
+                        <img src="images/1.png">
+                    </div>
+                    <div id="slide-box">
+                        <img src="images/2.png">
+                    </div>
+                    <div id="slide-box">
+                        <img src="images/3.png">
+                    </div>
+                    <div id="slide-box">
+                        <img src="images/4.png">
+                    </div>
+                </div>
+                <div class="clint-box-2">
+                    <div id="slide-box">
+                        <img src="images/2.png">
+                    </div>
+                    <div id="slide-box">
+                        <img src="images/5.png">
+                    </div>
+                    <div id="slide-box">
+                        <img src="images/4.png">
+                    </div>
+                    <div id="slide-box">
+                        <img src="images/3.png">
+                    </div>
+                </div>
+                <div class="tab-btn">
+                    <button class="tabone"></button>
+                    <button class="tabtwo"></button>
+                </div>
+            </div>
+        </div>
+        <div class="section-image">
+            <div class="icon-box"></div>
+            <div class="section-image-text">
+                <h2>GREAT THINGS IN BUSINESS ARE NEVER<br>
+                    DONE BY ONE PERSON. <span>THEY’RE DONE<br>
+                        BY A TEAM OF PEOPLE.</span>
+                </h2>
+                <p>We are committed to providing our customers with exceptional service while<br>
+                    offering our employees the best training.</p>
+            </div>
+        </div>
+        <div class="blog-section">
+            <div class="blog-text">
+                <p class="p11">OUR NEWS & ARTICLES</p>
+                <h2 class="h22">LATEST BLOG POSTS</h2>
+                <p class="p22">We are committed to providing our customers with exceptional service while<br>
+                    offering our employees the best training.</p>
+            </div>
+            <div class="blog-img">
+                <div class="blog-img-1">
+                    <img src="images/12-370x305.jpg">
+                    <div class="mid-img">
+                        <div class="icon-blog"></div>
+                    </div>
+                    <img src="images/10-370x305.jpg">
+                </div>
+            </div>
+            <div class="blog-box">
+                <div class="blog-box1">
+                    <button>15 MAR</button>
+                    <h2>BECOME THE BEST SALE MARKETER</h2>
+                    <button id="line">LEARN MORE
+                    </button>
+                </div>
+                <div class="blog-box1">
+                    <button>15 MAR</button>
+                    <h2>BASIC RULES OF RUNNING WEB AGENCY BUSINESS</h2>
+                    <button id="line">LEARN MORE
+                    </button>
+                </div>
+                <div class="blog-box1">
+                    <button>15 MAR</button>
+                    <h2>WE BUILD AND ACTIVATE BRANDS INSIGHT</h2>
+                    <button id="line">LEARN MORE
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="section-2">
+            <div class="section-2-text">
+                <h2>LET'S GET YOUR PROJECT STARTED!</h2>
+                <button id="contact-btn"><span>CONTACT WITH US</span></button>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-main">
+                <div class="footer-i">
+                    <img src="images/foo_logo.png">
+                    <p>Welcome to our web design agency. Lorem ipsum is simply free <br>text dolor sit amet consectetur
+                        adipisicing elit. Tempore corrupti <br>temporibus fuga earum asperiores, alias excepturi sit
+                        mpedit<br>
+                        fugit laudantium.</p>
+                </div>
+                <div class="footer-ii">
+                    <h3>CONTACT</h3>
+                    <p>66 Broklyn Street, New York<br>
+                        United States of America<br><br>
+                        P: 666 888 000<br>
+                        E: needhelp@meipaly.com</p>
+                </div>
+                <div class="footer-iii">
+                    <h3>SOCIAL</h3>
+                    <P><i class="fa-brands fa-twitter"></i>Twitter</P>
+                    <P><i class="fa-brands fa-facebook"></i>Facebook</P>
+                    <P><i class="fa-brands fa-youtube"></i>Youtube</P>
+                </div>
+            </div>
+            <hr class="footer-hr">
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        $(document).ready(function () {
+            $(".tabone").click(function () {
+                $(".clint-box").fadeIn();
+                $(".clint-box-2").fadeOut();
+                $(".tabone").css("background", "black");
+                $(".tabtwo").css("background", "none")
+            });
+            $(".tabtwo").click(function () {
+                $(".clint-box-2").fadeIn();
+                $(".clint-box").fadeOut();
+                $(".tabone").css("background", "none");
+                $(".tabtwo").css("background", "black")
+            });
+        })
+    </script>
+
+    <!-- <script>
+        var i = 0
+        var rawat = new Array();
+        rawat[0] = "images/1_1.jpg"
+        rawat[1] = "images/1_2.jpg"
+
+        function swapimage() {
+            document.getElementById("slide").src = rawat[i];
+            if (i < rawat.length - 1) {
+                i++;
+            }
+            else {
+                i = 0;
+            }
+            setTimeout("swapimage()", 2000);
+        }
+    </script> -->
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slides[slideIndex - 1].style.display = "block";
+        }
+    </script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 5,
+            spaceBetween: 30,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+</body>
+
+</html>
